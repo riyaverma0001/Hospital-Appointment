@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true })); //  form data
 app.use(bodyParser.json());     // json
 
-mongoose.connect('mongodb+srv://riyaavermaa0001:hospitalAppointment@cluster0.lhdd3.mongodb.net/Hospital?retryWrites=true&w=majority&appName=Cluster0');
+mongoose.connect('mongodb+srv://Add-your-connection-string');
 
 mongoose.connection.once('open', () => {
     console.log('Connected to MongoDB');
