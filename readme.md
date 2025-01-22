@@ -17,6 +17,3 @@ POST    /book-appointment
 
 //
 connection string: 
-
-mongodb+srv://riyaavermaa0001:hospitalAppointment@cluster0.lhdd3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-//
